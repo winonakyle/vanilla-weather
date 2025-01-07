@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #D8E5D7;
   font-family: "Fuzzy Bubbles", serif;
 }
 
@@ -10,4 +10,39 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
+}
+
+header {
+  border-bottom: 1px solid #D8E5D7;
+  padding: 0 0 25px 0;
+}
+
+.search-form-input {
+  background-color: #D8E5D7;
+  border: none;
+  border-radius: 6px;
+  width: 75%;
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background-color: #74896E;
+  border: none;
+  border-radius: 6px;
+  width: 23%;
+  margin-left: 4px;
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 16px;
+  padding: 15px 25px;
+  color: white;
+}
+
+footer {
+  border-top: 1px solid #D8E5D7;
+  padding: 25px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #74896E;
 }
