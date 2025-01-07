@@ -10,7 +10,7 @@
   <title>Vanilla Weather</title>
 </head>
 <body>
-  <div class="trio" >
+  <div class="weather-app" >
   <header>
     <form class="search-form">
       <input type="search" placeholder="Enter a city.." required class="search-form-input" />
@@ -18,24 +18,28 @@
     </form>
   </header>
   <main>
+    <div class="current-weather">
     <div>
-      <h1>Iron River</h1>
-      <p>
+      <h1 class="current-weather-city">Iron River</h1>
+      <p class="current-weather-details">
         Sunday 15:51, scattered clouds
         <br />
-        Humidity: 50%, Wind 3mph
+        Humidity: <strong>50%</strong>, Wind <strong>3mph</strong>
       </p>
     </div>
-    <div>
-      🌥️ 12ºF
+    <div class="current-weather-temp">
+      <div class="current-weather-temp-icon">🌥️</div>
+      <div class="current-weather-temp-value">12</div>
+      <div class="current-weather-temp-unit">ºF</div>
     </div>
+  </div>
   </main>
   <footer>
     <p>
       This project was coded by 
-      <a href="https://github.com/winonakyle" target="_blank">Winona Kyle</a> and is on 
-      <a href="https://github.com/winonakyle/vanilla-weather" target="_blank">GitHub</a>, hosted on 
-      <a href="https://wk-vanilla-weather.netlify.app/" target="_blank">Netlify</a>.
+      <a href="https://github.com/winonakyle" target="_blank">Winona Kyle</a> and is 
+      <a href="https://github.com/winonakyle/vanilla-weather" target="_blank">open-sourced on GitHub</a>, 
+      <a href="https://wk-vanilla-weather.netlify.app/" target="_blank">hosted on Netlify</a>.
     </p>
   </footer>
   </div>
