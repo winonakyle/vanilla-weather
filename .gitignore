@@ -1,0 +1,10 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Java files
+*.class
+
+# Other files
+*.log
+temp/
