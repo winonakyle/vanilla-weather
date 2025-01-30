@@ -76,14 +76,14 @@ main {
 }
 
 .current-weather-temp-icon {
-  font-size: 45px;
-  margin-top: 10px;
+  width: 73px;
+  height: 73px;
+  margin-top: 2px;
 }
 
 .current-weather-temp-value {
   font-size: 80px;
   font-weight: bold;
-  margin-left: 7px;
 }
 
 .current-weather-temp-unit {
